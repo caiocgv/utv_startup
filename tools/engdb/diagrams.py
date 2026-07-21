@@ -329,11 +329,15 @@ def generate_system_map(docs: list[Document], date: str) -> str:
     # Components connected to systems if related, else to a generic COMP node
     added_comp_node = False
     for c in sorted(comp_docs, key=lambda d: d.id):
+        # Resolve all related references once
+        resolved_ids = {
+            _extract_id_from_ref(r, id_map)
+            for r in c.related
+            if _extract_id_from_ref(r, id_map) is not None
+        }
         connected = False
         for s in system_docs:
-            if c.id in (id_map.get(r) for r in c.related) or any(
-                _extract_id_from_ref(r, id_map) == s.id for r in c.related
-            ):
+            if s.id in resolved_ids:
                 lines.append(f"    {s.node_id()} --> {c.node_id()}[{c.label()}]")
                 connected = True
                 break
