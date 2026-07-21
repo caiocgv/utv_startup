@@ -49,13 +49,13 @@ jobs:
                 exit 1
               fi
 
+              echo "Push rejected, synchronizing with origin/main before retry (${attempt}/3)..."
               if ! git pull --rebase --autostash origin main; then
                 git rebase --abort || true
                 echo "❌ Rebase failed due to conflicts."
                 exit 1
               fi
 
-              echo "Push rejected, retrying (${attempt}/3)..."
               sleep $((attempt * 2))
             done
           fi
