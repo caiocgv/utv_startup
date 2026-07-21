@@ -1,0 +1,63 @@
+name: Engineering Documentation
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Prevent simultaneous runs on the same ref; do not cancel in-progress runs
+# so that a partially-committed generate step is never left incomplete.
+concurrency:
+  group: engineering-docs-${{ github.ref }}
+  cancel-in-progress: false
+
+# Required to push the generated files back to the branch
+permissions:
+  contents: write
+
+jobs:
+  engineering-docs:
+    runs-on: ubuntu-latest
+
+    # Prevent an infinite loop: skip when the commit was made by the bot.
+    # The bot also adds "[skip ci]" to its commit messages as a secondary guard.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.actor != 'github-actions[bot]'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so git push works correctly
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements-engdb.txt
+
+      - name: Validate documents
+        run: python tools/engdb.py validate
+
+      - name: Generate reports
+        run: python tools/engdb.py generate
+
+      - name: Commit and push generated files (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add docs/_generated/
+
+          if git diff --staged --quiet; then
+            echo "✅ No changes to generated files — skipping commit."
+          else
+            git commit -m "chore(docs): regenerate engineering documentation [skip ci]"
+            git push
+            echo "✅ Generated files committed and pushed."
+          fi
