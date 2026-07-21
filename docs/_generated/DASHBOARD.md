@@ -38,7 +38,7 @@ tags: [generated, diagram, mermaid]
 | decision | 4 |
 | journal | 4 |
 | manufacturing | 7 |
-| other | 64 |
+| other | 65 |
 | product | 3 |
 | requirement | 4 |
 | simulation | 7 |
@@ -46,6 +46,6 @@ tags: [generated, diagram, mermaid]
 | test | 6 |
 | utv_system | 99 |
 | validation | 3 |
-| **Total** | **218** |
+| **Total** | **219** |
 
 *Última atualização: 2026-07-21*
