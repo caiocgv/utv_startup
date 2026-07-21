@@ -133,7 +133,7 @@ Exemplo em um requisito:
 ```markdown
 ## Links Relacionados
 - **Arquitetura:** [/architecture/utv/chassis.md](../../architecture/utv/chassis.md)
-- **Projeto CAD:** [/cad/utv/chassis/](../../cad/utv/chassis/)
+- **Projeto CAD:** [/products/utv/chassis/cad/](../../products/utv/chassis/cad/)
 - **BOM:** [/bom/utv/chassis.md](../../bom/utv/chassis.md)
 - **Testes:** [/tests/plans/TEST-0001.md](../../tests/plans/TEST-0001.md)
 ```
