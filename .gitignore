@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CAD temporary files
+*.bak
+*.autosave
+*.FCBak
+
+# Build artifacts
+*.pyc
+__pycache__/
+node_modules/
+
+# Large binary files should be tracked with Git LFS
+# *.step
+# *.iges
+# *.stl
+# *.FCStd
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
