@@ -39,6 +39,23 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: regenerate Mermaid diagrams [skip ci]"
-            git pull --rebase origin main
-            git push
+            for attempt in 1 2 3; do
+              if ! git pull --rebase --autostash origin main; then
+                git rebase --abort || true
+                echo "❌ Rebase failed due to conflicts."
+                exit 1
+              fi
+
+              if git push; then
+                break
+              fi
+
+              if [ "$attempt" -eq 3 ]; then
+                echo "❌ Failed to push after 3 attempts."
+                exit 1
+              fi
+
+              echo "Push rejected, retrying (${attempt}/3)…"
+              sleep 2
+            done
           fi
