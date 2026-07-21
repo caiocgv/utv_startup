@@ -101,6 +101,11 @@ _EXTERNAL_PREFIXES = ("http://", "https://", "mailto:", "ftp://", "//")
 # ---------------------------------------------------------------------------
 
 
+def _id_prefix(artifact_id: str) -> str:
+    """Return the prefix portion of an artifact ID (the part before the first '-')."""
+    return artifact_id.split("-")[0] if "-" in artifact_id else ""
+
+
 class Artifact:
     """Represents a validated engineering artifact document."""
 
@@ -111,7 +116,7 @@ class Artifact:
 
     @property
     def prefix(self) -> str:
-        return self.id.split("-")[0]
+        return _id_prefix(self.id)
 
     @property
     def type_name(self) -> str:
@@ -256,7 +261,7 @@ def _is_artifact_candidate(path: Path, root: Path) -> bool:
     if path.name.lower() == "readme.md":
         return False
     parts = path.relative_to(root).parts
-    if parts and parts[0] == "templates":
+    if "templates" in parts:
         return False
     return True
 
@@ -299,7 +304,7 @@ def load_artifacts(
             continue
 
         artifact_id = raw_id.strip()
-        prefix = artifact_id.split("-")[0] if "-" in artifact_id else ""
+        prefix = _id_prefix(artifact_id)
 
         # Only process IDs whose prefix is in our supported list
         if prefix not in ARTIFACT_TYPES:
