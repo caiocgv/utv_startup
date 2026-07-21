@@ -7,7 +7,7 @@ owner: fundador
 created: "2026-07-21"
 updated: "2026-07-21"
 related:
-  - /cad/README.md
+  - /products/utv/brakes/cad/README.md
   - UTV-BRAKE-bom.md
 tags: [utv, brakes, drawings]
 ---
@@ -28,5 +28,5 @@ DRW-XXXX-SISTEMA-COMPONENTE-DESCRICAO.pdf
 
 ## Links Relacionados
 
-- [CAD](../../../cad/README.md)
+- [CAD](./cad/README.md)
 - [BOM](./bom.md)
