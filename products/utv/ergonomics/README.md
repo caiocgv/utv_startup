@@ -36,4 +36,4 @@ Posto de operação, conforto e usabilidade.
 
 - [UTV — Visão Geral](../README.md)
 - [Requisitos Gerais](../../../requirements/README.md)
-- [Componentes](../../../products/utv/components/README.md)
+- [Componentes](../components/README.md)

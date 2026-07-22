@@ -36,4 +36,4 @@ Sistema elétrico, eletrônico e de iluminação.
 
 - [UTV — Visão Geral](../README.md)
 - [Requisitos Gerais](../../../requirements/README.md)
-- [Componentes](../../../products/utv/components/README.md)
+- [Componentes](../components/README.md)

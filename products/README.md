@@ -57,6 +57,6 @@ flowchart TD
 ## Links Relacionados
 
 - [Roadmap de Produto](../roadmap/product/README.md)
-- [Componentes Reutilizáveis](../products/utv/components/README.md)
+- [Componentes Reutilizáveis](./utv/components/README.md)
 - [Requisitos](../requirements/README.md)
-- [Decisões](../products/utv/decisions/README.md)
+- [Decisões](./utv/decisions/README.md)

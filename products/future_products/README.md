@@ -63,4 +63,4 @@ A expansão de produtos será baseada em:
 
 - [Roadmap de Produto](../../roadmap/product/README.md)
 - [UTV — Produto atual](../utv/README.md)
-- [Componentes Reutilizáveis](../../products/utv/components/README.md)
+- [Componentes Reutilizáveis](../utv/components/README.md)

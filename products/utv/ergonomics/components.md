@@ -29,4 +29,4 @@ tags: [utv, ergonomics, components]
 ## Links Relacionados
 
 - [BOM](./bom.md)
-- [Biblioteca de Componentes](../../../products/utv/components/README.md)
+- [Biblioteca de Componentes](../components/README.md)

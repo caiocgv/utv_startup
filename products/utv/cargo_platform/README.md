@@ -36,4 +36,4 @@ Plataforma modular traseira para transporte de carga.
 
 - [UTV — Visão Geral](../README.md)
 - [Requisitos Gerais](../../../requirements/README.md)
-- [Componentes](../../../products/utv/components/README.md)
+- [Componentes](../components/README.md)
