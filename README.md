@@ -12,7 +12,7 @@ related:
   - CONTRIBUTING.md
   - /products/README.md
   - /engineering/README.md
-  - /decisions/README.md
+  - /products/utv/decisions/README.md
 tags: [root, overview, readme]
 ---
 
@@ -75,13 +75,13 @@ graph TD
 | Área | Descrição | Link |
 |------|-----------|------|
 | 🚗 Produtos | Todos os produtos e sistemas | [/products](./products/README.md) |
-| 🔩 Componentes | Biblioteca de componentes reutilizáveis | [/components](./components/README.md) |
+| 🔩 Componentes | Biblioteca de componentes reutilizáveis | [/components](./products/utv/components/README.md) |
 | 📋 Requisitos | Sistema de requisitos (REQ-XXXX) | [/requirements](./requirements/README.md) |
 | 🏗️ Arquitetura | Arquitetura do sistema e produto | [/architecture](./architecture/README.md) |
 | ⚙️ Engenharia | Padrões, normas e processos | [/engineering](./engineering/README.md) |
-| 🧠 Decisões | Architecture Decision Records (ADR) | [/decisions](./decisions/README.md) |
+| 🧠 Decisões | Architecture Decision Records (ADR) | [/decisions](./products/utv/decisions/README.md) |
 | 🧪 Testes | Planos e resultados de testes | [/tests](./tests/README.md) |
-| 📐 Simulações | FEA, CG, fadiga e resultados | [/simulations](./simulations/README.md) |
+| 📐 Simulações | FEA, CG, fadiga e resultados | [/simulations](./products/utv/simulations/README.md) |
 | 🏭 Fabricação | Processos e controle de produção | [/manufacturing](./manufacturing/README.md) |
 | ✅ Qualidade | Procedimentos e métricas de qualidade | [/quality](./quality/README.md) |
 | 🏷️ Homologação | Requisitos DENATRAN/INMETRO | [/homologation](./homologation/README.md) |

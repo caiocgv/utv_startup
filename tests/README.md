@@ -9,7 +9,7 @@ updated: "2026-07-21"
 related:
   - /requirements/README.md
   - /validation/README.md
-  - /simulations/README.md
+  - /products/utv/simulations/README.md
 tags: [tests, testing, overview]
 ---
 
@@ -38,5 +38,5 @@ Planos, execuções e resultados de testes de produto.
 
 - [Requisitos](../requirements/README.md)
 - [Validação](../validation/README.md)
-- [Simulações](../simulations/README.md)
+- [Simulações](../products/utv/simulations/README.md)
 - [Template de Plano de Testes](../templates/test_plan.md)

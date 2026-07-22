@@ -39,6 +39,6 @@ tags: [bom, "[PRODUTO]", "[SISTEMA]"]
 
 ## Links Relacionados
 
-- [Componentes utilizados](../../components/README.md)
+- [Componentes utilizados](../products/utv/components/README.md)
 - [Arquitetura do sistema]
-- [Fornecedores](../../suppliers/README.md)
+- [Fornecedores](../suppliers/README.md)

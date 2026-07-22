@@ -7,7 +7,7 @@ owner: fundador
 created: "2026-07-21"
 updated: "2026-07-21"
 related:
-  - /decisions/README.md
+  - /products/utv/decisions/README.md
   - UTV-BODY-README.md
 tags: [utv, body, history]
 ---
@@ -22,9 +22,9 @@ tags: [utv, body, history]
 
 ## Decisões Relevantes
 
-Consulte [/decisions](../../../decisions/README.md) para as decisões relacionadas a este sistema.
+Consulte [/decisions](../../../products/utv/decisions/README.md) para as decisões relacionadas a este sistema.
 
 ## Links Relacionados
 
-- [ADRs](../../../decisions/README.md)
+- [ADRs](../../../products/utv/decisions/README.md)
 - [Changelog Global](../../../CHANGELOG.md)

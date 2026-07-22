@@ -9,7 +9,7 @@ updated: "2026-07-21"
 related:
   - /README.md
   - /requirements/README.md
-  - /components/README.md
+  - /products/utv/components/README.md
 tags: [products, index]
 ---
 
@@ -57,6 +57,6 @@ flowchart TD
 ## Links Relacionados
 
 - [Roadmap de Produto](../roadmap/product/README.md)
-- [Componentes Reutilizáveis](../components/README.md)
+- [Componentes Reutilizáveis](../products/utv/components/README.md)
 - [Requisitos](../requirements/README.md)
-- [Decisões](../decisions/README.md)
+- [Decisões](../products/utv/decisions/README.md)

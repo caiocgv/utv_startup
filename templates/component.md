@@ -7,7 +7,7 @@ owner: fundador
 created: "YYYY-MM-DD"
 updated: "YYYY-MM-DD"
 related:
-  - /components/README.md
+  - /products/utv/components/README.md
   - /suppliers/README.md
 tags: [component, "[CATEGORIA]"]
 ---
@@ -46,5 +46,5 @@ tags: [component, "[CATEGORIA]"]
 
 ## Links Relacionados
 
-- [Fornecedor](../../suppliers/README.md)
+- [Fornecedor](../suppliers/README.md)
 - [BOM dos produtos que utilizam este componente]

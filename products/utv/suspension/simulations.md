@@ -7,7 +7,7 @@ owner: fundador
 created: "2026-07-21"
 updated: "2026-07-21"
 related:
-  - /simulations/README.md
+  - /products/utv/simulations/README.md
   - UTV-SUSP-tests.md
 tags: [utv, suspension, simulations]
 ---
@@ -29,5 +29,5 @@ tags: [utv, suspension, simulations]
 
 ## Links Relacionados
 
-- [Simulações Globais](../../../simulations/README.md)
+- [Simulações Globais](../../../products/utv/simulations/README.md)
 - [Testes](./tests.md)

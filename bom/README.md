@@ -8,7 +8,7 @@ created: "2026-07-21"
 updated: "2026-07-21"
 related:
   - /README.md
-  - /components/README.md
+  - /products/utv/components/README.md
 tags: [bom, overview]
 ---
 
@@ -23,4 +23,4 @@ A ser desenvolvido conforme o projeto avança.
 ## Links Relacionados
 
 - [README Principal](../README.md)
-- [components](../components/README.md)
+- [components](../products/utv/components/README.md)

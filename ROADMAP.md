@@ -107,4 +107,4 @@ timeline
 - [Roadmap da Empresa](./roadmap/company/README.md)
 - [Roadmap Tecnológico](./roadmap/technology/README.md)
 - [Roadmap de Industrialização](./roadmap/industrialization/README.md)
-- [Decisões Estratégicas](./decisions/README.md)
+- [Decisões Estratégicas](./products/utv/decisions/README.md)

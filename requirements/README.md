@@ -80,4 +80,4 @@ Use o [template de requisito](../templates/requirement.md).
 - [Produto UTV](../products/utv/README.md)
 - [Testes](../tests/README.md)
 - [Validação](../validation/README.md)
-- [Decisões](../decisions/README.md)
+- [Decisões](../products/utv/decisions/README.md)

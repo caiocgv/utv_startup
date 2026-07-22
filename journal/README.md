@@ -8,7 +8,7 @@ created: "2026-07-21"
 updated: "2026-07-21"
 related:
   - /README.md
-  - /decisions/README.md
+  - /products/utv/decisions/README.md
 tags: [journal, daily, log]
 ---
 
@@ -68,5 +68,5 @@ O journal é um diário técnico e de gestão. Registra:
 ## Links Relacionados
 
 - [Template de Journal](../templates/journal_entry.md)
-- [Decisões](../decisions/README.md)
+- [Decisões](../products/utv/decisions/README.md)
 - [Reuniões](../meetings/README.md)

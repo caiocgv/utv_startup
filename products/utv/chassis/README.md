@@ -36,4 +36,4 @@ Estrutura principal e chassi do veículo.
 
 - [UTV — Visão Geral](../README.md)
 - [Requisitos Gerais](../../../requirements/README.md)
-- [Componentes](../../../components/README.md)
+- [Componentes](../../../products/utv/components/README.md)

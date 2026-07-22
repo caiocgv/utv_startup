@@ -7,7 +7,7 @@ owner: "[RESPONSÁVEL]"
 created: "YYYY-MM-DD"
 updated: "YYYY-MM-DD"
 related:
-  - /decisions/README.md
+  - /products/utv/decisions/README.md
   - "[DOCUMENTO RELACIONADO]"
 tags: [adr, "[ÁREA]", "[SISTEMA]"]
 ---

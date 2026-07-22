@@ -7,7 +7,7 @@ owner: fundador
 created: "2026-07-21"
 updated: "2026-07-21"
 related:
-  - /components/README.md
+  - /products/utv/components/README.md
   - UTV-CARGO-bom.md
 tags: [utv, cargo_platform, components]
 ---
@@ -29,4 +29,4 @@ tags: [utv, cargo_platform, components]
 ## Links Relacionados
 
 - [BOM](./bom.md)
-- [Biblioteca de Componentes](../../../components/README.md)
+- [Biblioteca de Componentes](../../../products/utv/components/README.md)

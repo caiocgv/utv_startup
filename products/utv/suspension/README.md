@@ -36,4 +36,4 @@ Sistema de suspensão dianteiro e traseiro.
 
 - [UTV — Visão Geral](../README.md)
 - [Requisitos Gerais](../../../requirements/README.md)
-- [Componentes](../../../components/README.md)
+- [Componentes](../../../products/utv/components/README.md)
