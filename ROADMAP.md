@@ -53,7 +53,7 @@ gantt
 
 ### Fase 0 — Fundação (2026)
 - [x] Criar repositório PLM
-- [ ] Definir filosofia de engenharia
+- [x] Definir filosofia de engenharia
 - [ ] Documentar missão e visão
 - [ ] Iniciar sistema de requisitos
 
