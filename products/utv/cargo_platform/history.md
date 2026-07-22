@@ -22,9 +22,9 @@ tags: [utv, cargo_platform, history]
 
 ## Decisões Relevantes
 
-Consulte [/decisions](../../../products/utv/decisions/README.md) para as decisões relacionadas a este sistema.
+Consulte [/decisions](../decisions/README.md) para as decisões relacionadas a este sistema.
 
 ## Links Relacionados
 
-- [ADRs](../../../products/utv/decisions/README.md)
+- [ADRs](../decisions/README.md)
 - [Changelog Global](../../../CHANGELOG.md)

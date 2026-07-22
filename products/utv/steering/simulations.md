@@ -29,5 +29,5 @@ tags: [utv, steering, simulations]
 
 ## Links Relacionados
 
-- [Simulações Globais](../../../products/utv/simulations/README.md)
+- [Simulações Globais](../simulations/README.md)
 - [Testes](./tests.md)

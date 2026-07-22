@@ -105,5 +105,5 @@ gantt
 - [Arquitetura do Sistema](../../architecture/README.md)
 - [BOM Principal](../../bom/README.md)
 - [Plano de Testes](../../tests/README.md)
-- [Simulações](../../products/utv/simulations/README.md)
-- [Decisões](../../products/utv/decisions/README.md)
+- [Simulações](./simulations/README.md)
+- [Decisões](./decisions/README.md)

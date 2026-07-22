@@ -40,5 +40,5 @@ Simulações computacionais realizadas durante o desenvolvimento do produto.
 
 ## Links Relacionados
 
-- [Testes](../tests/README.md)
-- [Produtos](../products/README.md)
+- [Testes](../../../tests/README.md)
+- [Produtos](../../README.md)
