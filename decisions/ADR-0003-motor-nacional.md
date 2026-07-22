@@ -17,30 +17,30 @@ tags: [adr, powertrain, motor, propulsion, utv]
 
 ## Status
 
-🟡 **Proposto** — Aguardando levantamento de fornecedores
+🟡 **Pré-definido** — Aguardando implementação no projeto
 
 ---
 
 ## Contexto
 
-A escolha do sistema de propulsão define peso, custo, complexidade de homologação e experiência do usuário. O mercado-alvo (rural/agrícola brasileiro) tem características específicas de combustível disponível, manutenção e preferência do usuário.
+A escolha do sistema de propulsão define peso, custo e experiência do usuário. O mercado-alvo (rural/agrícola brasileiro) tem características específicas de combustível disponível, manutenção e preferência do usuário.
 
 ---
 
 ## Alternativas Consideradas
 
-| Alternativa | Custo | Infra. Manutenção | Homologação | Autonomia | Mercado-alvo |
-|-------------|-------|-------------------|-------------|-----------|--------------|
-| **Motor gasolina nacional** | **Baixo** | **Excelente** | **Padrão** | **Boa** | **Rural** |
-| Motor diesel nacional | Médio | Excelente | Padrão | Excelente | Rural |
-| Motor elétrico | Alto | Baixa | Complexa | Limitada | Urbano |
-| Motor flex | Baixo | Excelente | Padrão | Boa | Rural |
+| Alternativa | Custo | Manutenção | Homologação | Força | Autonomia | Mercado-alvo |
+|-------------|-------|------------|-------------|-------|-----------|--------------|
+| **Motor gasolina estacionário** | **Baixo** | **Excelente** | **Padrão** | **Baixo** | **Boa** | **Rural** |
+| Motor diesel estacionário | Baixo | Excelente | Padrão | Baixo | Excelente | Rural |
+| Motor elétrico | Alto | Baixa | Complexa | Boa | Limitada | Urbano |
+| Motor automotivo segunda mão | Baixo | Excelente | Padrão | Excelente | Boa | Rural |
 
 ---
 
 ## Decisão Proposta
 
-Motor de **combustão interna (gasolina ou flex) de fabricante nacional**, disponível com rede de assistência e peças de reposição consolidada no Brasil.
+Motor de **combustão interna (gasolina ou flex) de fabricante nacional**, disponível com rede de assistência e peças de reposição consolidada no Brasil. Motor VW AP 1.6 ou 1.8 com cambio integrado.
 
 ---
 
@@ -80,4 +80,5 @@ Motor de **combustão interna (gasolina ou flex) de fabricante nacional**, dispo
 
 | Rev | Data | Autor | Descrição |
 |-----|------|-------|-----------|
-| 1.0 | 2026-07-21 | Fundador | Criação inicial |
+| 1.0 | 2026-07-21 | CACV | Criação inicial |
+| 2.0 | 2026-07-22 | CACV | Motor pre definido|
