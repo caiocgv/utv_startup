@@ -42,7 +42,7 @@ flowchart TD
 |----|--------|--------|------|
 | [ADR-0001](./ADR-0001-repositorio-plm.md) | Repositório GitHub como PLM simplificado | ✅ Aceito | 2026-07-21 |
 | [ADR-0002](./ADR-0002-chassis-tubular.md) | Chassis tubular como estrutura principal | 🟡 Proposto | 2026-07-21 |
-| [ADR-0003](./ADR-0003-motor-nacional.md) | Motor de combustão nacional como propulsão inicial | 🟡 Proposto | 2026-07-21 |
+| [ADR-0003](./ADR-0003-motor-nacional.md) | Motor VW AP 1.6/1.8 como propulsão do UTV | ✅ Aceito | 2026-07-22 |
 | [ADR-0004](./ADR-0004-suspensao.md) | Sistema de suspensão independente para o UTV | 🟡 Proposto | 2026-07-22 |
 | [ADR-0005](./ADR-0005-freios.md) | Sistema de freios a disco hidráulico nos 4 rodas | 🟡 Proposto | 2026-07-22 |
 | [ADR-0006](./ADR-0006-direcao.md) | Direção por cremalheira mecânica | 🟡 Proposto | 2026-07-22 |
