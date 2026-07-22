@@ -3,7 +3,7 @@
 
 # Dashboard de Engenharia
 
-## Total de Artefatos: **6**
+## Total de Artefatos: **18**
 
 ---
 
@@ -11,9 +11,9 @@
 
 | Prefixo | Tipo | Quantidade |
 |---------|------|------------|
-| ADR | Decisão | 3 |
+| ADR | Decisão | 8 |
 | DOC | Documento | 1 |
-| REQ | Requisito | 2 |
+| REQ | Requisito | 9 |
 
 ---
 
@@ -23,8 +23,8 @@
 |--------|------------|
 | accepted | 1 |
 | active | 1 |
-| draft | 2 |
-| proposed | 2 |
+| draft | 9 |
+| proposed | 7 |
 
 ---
 

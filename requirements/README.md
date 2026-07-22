@@ -42,7 +42,13 @@ flowchart TD
 |----|--------|---------|---------|--------|
 | [REQ-0001](./REQ-0001.md) | Capacidade de Carga Mínima | UTV | Chassis | 🟡 Em revisão |
 | [REQ-0002](./REQ-0002.md) | Motorização Nacional | UTV | Powertrain | 🟡 Em revisão |
-| [REQ-0003](./REQ-0003.md) | Homologação DENATRAN | UTV | Global | 🔴 Aberto |
+| [REQ-0003](./REQ-0003.md) | Requisitos do Sistema de Powertrain | UTV | Powertrain | 🔴 Aberto |
+| [REQ-0004](./REQ-0004.md) | Requisitos do Sistema de Suspensão | UTV | Suspensão | 🔴 Aberto |
+| [REQ-0005](./REQ-0005.md) | Requisitos do Sistema de Freios | UTV | Freios | 🔴 Aberto |
+| [REQ-0006](./REQ-0006.md) | Requisitos do Sistema de Direção | UTV | Direção | 🔴 Aberto |
+| [REQ-0007](./REQ-0007.md) | Requisitos do Sistema de Chassis | UTV | Chassis | 🔴 Aberto |
+| [REQ-0008](./REQ-0008.md) | Requisitos de Ergonomia | UTV | Ergonomia | 🔴 Aberto |
+| [REQ-0009](./REQ-0009.md) | Requisitos da Carroceria | UTV | Carroceria | 🔴 Aberto |
 
 ---
 
