@@ -21,4 +21,3 @@
 | DOC-0001 | Automação de Documentação de Engenharia | — |
 | REQ-0001 | Capacidade de Carga Mínima | — |
 | REQ-0002 | Motorização Nacional | — |
-| REQ-0003 | Homologação DENATRAN | — |

@@ -11,4 +11,3 @@
 | DOC-0001 | Automação de Documentação de Engenharia | Documento | active | 1.0 | [docs/engineering-automation.md](../engineering-automation.md) |
 | REQ-0001 | Capacidade de Carga Mínima | Requisito | draft | 1.0 | [requirements/REQ-0001.md](../../requirements/REQ-0001.md) |
 | REQ-0002 | Motorização Nacional | Requisito | draft | 1.0 | [requirements/REQ-0002.md](../../requirements/REQ-0002.md) |
-| REQ-0003 | Homologação DENATRAN | Requisito | draft | 1.0 | [requirements/REQ-0003.md](../../requirements/REQ-0003.md) |
