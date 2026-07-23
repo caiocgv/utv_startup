@@ -17,7 +17,7 @@
 |----------|--------|------------------|
 | ADR-0001 | Repositório GitHub como PLM Simplificado | — |
 | ADR-0002 | Chassis Tubular como Estrutura Principal | — |
-| ADR-0003 | Motor de Combustão Nacional como Propulsão Inicial | — |
+| ADR-0003 | Motor VW AP 1.6/1.8 como Propulsão do UTV | — |
 | ADR-0004 | Sistema de Suspensão Independente para o UTV | — |
 | ADR-0005 | Sistema de Freios a Disco Hidráulico nos 4 Rodas | — |
 | ADR-0006 | Direção por Cremalheira Mecânica | — |

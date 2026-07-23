@@ -21,10 +21,10 @@
 
 | Status | Quantidade |
 |--------|------------|
-| accepted | 1 |
+| accepted | 2 |
 | active | 1 |
 | draft | 9 |
-| proposed | 7 |
+| proposed | 6 |
 
 ---
 
