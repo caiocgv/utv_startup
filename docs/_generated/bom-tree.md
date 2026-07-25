@@ -4,8 +4,8 @@ id: GEN-BOM-TREE
 status: generated
 revision: "auto"
 owner: automation
-created: "2026-07-22"
-updated: "2026-07-22"
+created: "2026-07-25"
+updated: "2026-07-25"
 tags: [generated, diagram, mermaid]
 ---
 

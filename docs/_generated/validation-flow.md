@@ -4,8 +4,8 @@ id: GEN-VAL-FLOW
 status: generated
 revision: "auto"
 owner: automation
-created: "2026-07-22"
-updated: "2026-07-22"
+created: "2026-07-25"
+updated: "2026-07-25"
 tags: [generated, diagram, mermaid]
 ---
 
@@ -27,7 +27,13 @@ flowchart LR
     TEST_STAGE --> VAL_STAGE
     REQ_0001["REQ-0001<br/>Capacidade de Carga Mínima"] --> REQ_STAGE
     REQ_0002["REQ-0002<br/>Motorização Nacional"] --> REQ_STAGE
-    REQ_0003["REQ-0003<br/>Homologação DENATRAN"] --> REQ_STAGE
+    REQ_0003["REQ-0003<br/>Requisitos do Sistema de Powertrain"] --> REQ_STAGE
+    REQ_0004["REQ-0004<br/>Requisitos do Sistema de Suspensão"] --> REQ_STAGE
+    REQ_0005["REQ-0005<br/>Requisitos do Sistema de Freios"] --> REQ_STAGE
+    REQ_0006["REQ-0006<br/>Requisitos do Sistema de Direção"] --> REQ_STAGE
+    REQ_0007["REQ-0007<br/>Requisitos do Sistema de Chassis"] --> REQ_STAGE
+    REQ_0008["REQ-0008<br/>Requisitos de Ergonomia"] --> REQ_STAGE
+    REQ_0009["REQ-0009<br/>Requisitos da Carroceria"] --> REQ_STAGE
     REQ_README["REQ-README<br/>Sistema de Requisitos"] --> REQ_STAGE
     SIM_STAGE --> SIM_CG_README["SIM-CG-README<br/>Centro de Gravidade"]
     SIM_STAGE --> SIM_FATIGUE_README["SIM-FATIGUE-README<br/>Fadiga"]

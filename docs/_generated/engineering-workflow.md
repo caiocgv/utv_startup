@@ -4,8 +4,8 @@ id: GEN-ENG-WORKFLOW
 status: generated
 revision: "auto"
 owner: automation
-created: "2026-07-22"
-updated: "2026-07-22"
+created: "2026-07-25"
+updated: "2026-07-25"
 tags: [generated, diagram, mermaid]
 ---
 
@@ -46,7 +46,13 @@ flowchart TD
 |----|--------|--------|
 | REQ-0001 | Capacidade de Carga Mínima | draft |
 | REQ-0002 | Motorização Nacional | draft |
-| REQ-0003 | Homologação DENATRAN | draft |
+| REQ-0003 | Requisitos do Sistema de Powertrain | draft |
+| REQ-0004 | Requisitos do Sistema de Suspensão | draft |
+| REQ-0005 | Requisitos do Sistema de Freios | draft |
+| REQ-0006 | Requisitos do Sistema de Direção | draft |
+| REQ-0007 | Requisitos do Sistema de Chassis | draft |
+| REQ-0008 | Requisitos de Ergonomia | draft |
+| REQ-0009 | Requisitos da Carroceria | draft |
 | REQ-README | Sistema de Requisitos | active |
 
 ## 🖥️ Simulações

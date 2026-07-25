@@ -4,8 +4,8 @@ id: GEN-REQ-GRAPH
 status: generated
 revision: "auto"
 owner: automation
-created: "2026-07-22"
-updated: "2026-07-22"
+created: "2026-07-25"
+updated: "2026-07-25"
 tags: [generated, diagram, mermaid]
 ---
 
@@ -19,7 +19,13 @@ flowchart LR
     subgraph SG_REQUIREMENT["📋 REQ"]
         REQ_0001["REQ-0001<br/>Capacidade de Carga Mínima"]
         REQ_0002["REQ-0002<br/>Motorização Nacional"]
-        REQ_0003["REQ-0003<br/>Homologação DENATRAN"]
+        REQ_0003["REQ-0003<br/>Requisitos do Sistema de Powertrain"]
+        REQ_0004["REQ-0004<br/>Requisitos do Sistema de Suspensão"]
+        REQ_0005["REQ-0005<br/>Requisitos do Sistema de Freios"]
+        REQ_0006["REQ-0006<br/>Requisitos do Sistema de Direção"]
+        REQ_0007["REQ-0007<br/>Requisitos do Sistema de Chassis"]
+        REQ_0008["REQ-0008<br/>Requisitos de Ergonomia"]
+        REQ_0009["REQ-0009<br/>Requisitos da Carroceria"]
         REQ_README["REQ-README<br/>Sistema de Requisitos"]
     end
     subgraph SG_UTV_SYSTEM["🏗️ SYS"]
@@ -170,9 +176,27 @@ flowchart LR
     end
     ADR_0002 --> REQ_0001
     ADR_0003 --> REQ_0002
+    ADR_0003 --> REQ_0003
+    ADR_0004 --> REQ_0004
+    ADR_0005 --> REQ_0005
+    ADR_0006 --> REQ_0006
+    ADR_0007 --> REQ_0007
+    ADR_0007 --> REQ_0008
+    ADR_0008 --> REQ_0001
+    ADR_0008 --> REQ_0009
     HOM_DENATRAN_README --> REQ_0003
     HOM_INMETRO_README --> REQ_0003
     HOM_REQUIREMENTS_README --> REQ_0003
+    REQ_0003 --> REQ_0002
+    REQ_0004 --> REQ_0001
+    REQ_0005 --> REQ_0003
+    REQ_0006 --> REQ_0004
+    REQ_0007 --> REQ_0001
+    REQ_0008 --> REQ_0006
+    REQ_0008 --> REQ_0007
+    REQ_0009 --> REQ_0001
+    REQ_0009 --> REQ_0007
+    REQ_0009 --> REQ_0008
     UTV_BODY_HIST --> UTV_BODY_README
     UTV_BRAKE_HIST --> UTV_BRAKE_README
     UTV_CARGO_HIST --> UTV_CARGO_README
