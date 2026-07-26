@@ -1,0 +1,14 @@
+id: REQ-0005
+title: Meta de posicionamento comercial
+status: draft
+revision: A
+
+description: >
+  O produto deverá ser desenvolvido visando uma faixa de preço competitiva
+  para pequenos produtores rurais, posicionando-se entre quadriciclos
+  utilitários e UTVs convencionais.
+
+target_price: R$ 30.000 (meta preliminar)
+
+validation:
+  Pesquisa de mercado
