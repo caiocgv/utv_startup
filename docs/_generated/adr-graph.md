@@ -24,6 +24,7 @@ flowchart TD
     ADR_0006["ADR-0006<br/>Direção por Cremalheira Mecânica"]
     ADR_0007["ADR-0007<br/>Ergonomia com Banco Ajustável e Proteção ROPS Integrada"]
     ADR_0008["ADR-0008<br/>Carroceria em Aço com Plataforma Basculante"]
+    ADR_0009["ADR-0009<br/>Ferramentas de Análise de Suspensão e Software CAD 3D"]
     ADR_README["ADR-README<br/>Architecture Decision Records (ADR)"]
     REQ_0001["REQ-0001<br/>Capacidade de Carga Mínima"]
     ADR_0002 --> REQ_0001
@@ -45,4 +46,6 @@ flowchart TD
     ADR_0008 --> REQ_0001
     REQ_0009["REQ-0009<br/>Requisitos da Carroceria"]
     ADR_0008 --> REQ_0009
+    REQ_0004["REQ-0004<br/>Requisitos do Sistema de Suspensão"]
+    ADR_0009 --> REQ_0004
 ```
