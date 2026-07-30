@@ -48,6 +48,7 @@ flowchart TD
 | [ADR-0006](./ADR-0006-direcao.md) | Direção por cremalheira mecânica | 🟡 Proposto | 2026-07-22 |
 | [ADR-0007](./ADR-0007-ergonomia.md) | Ergonomia com banco ajustável e proteção ROPS integrada | 🟡 Proposto | 2026-07-22 |
 | [ADR-0008](./ADR-0008-carroceria.md) | Carroceria em aço com plataforma basculante | 🟡 Proposto | 2026-07-22 |
+| [ADR-0009](./ADR-0009-ferramentas-analise-suspensao-cad.md) | Ferramentas de análise de suspensão e software CAD 3D | ✅ Aceito | 2026-07-30 |
 
 ---
 
