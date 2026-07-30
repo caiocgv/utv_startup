@@ -4,8 +4,8 @@ id: GEN-COMP-DEP
 status: generated
 revision: "auto"
 owner: automation
-created: "2026-07-25"
-updated: "2026-07-25"
+created: "2026-07-30"
+updated: "2026-07-30"
 tags: [generated, diagram, mermaid]
 ---
 
