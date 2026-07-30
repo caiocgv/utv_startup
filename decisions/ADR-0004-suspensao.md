@@ -2,10 +2,10 @@
 title: Sistema de Suspensão Independente para o UTV
 id: ADR-0004
 status: proposed
-revision: "1.0"
+revision: "1.1"
 owner: fundador
 created: "2026-07-22"
-updated: "2026-07-22"
+updated: "2026-07-30"
 related:
   - /decisions/README.md
   - /requirements/REQ-0004.md
@@ -31,7 +31,7 @@ A escolha do conceito de suspensão define diretamente o conforto do operador, o
 
 | Alternativa | Custo | Curso | Manutenção | Off-road | Peso |
 |-------------|-------|-------|------------|----------|------|
-| **Suspensão independente duplo A (dianteira)** | **Médio** | **Alto** | **Médio** | **Excelente** | **Médio** |
+| **Suspensão independente duplo A com pull rod (dianteira)** | **Médio** | **Alto** | **Médio** | **Excelente** | **Médio** |
 | Suspensão eixo rígido (Beam axle) | Baixo | Baixo | Fácil | Boa | Alto |
 | Suspensão McPherson | Baixo | Médio | Fácil | Boa | Baixo |
 | Suspensão semi-independente (torção) | Médio | Médio | Fácil | Boa | Baixo |
@@ -41,17 +41,17 @@ A escolha do conceito de suspensão define diretamente o conforto do operador, o
 
 ## Decisão Proposta
 
-**Suspensão independente duplo A (Double Wishbone)** na dianteira e **suspensão de eixo rígido com molas de lâmina ou molas helicoidais e 4 braços** na traseira, priorizando robustez para carga e facilidade de fabricação nacional.
+**Suspensão independente duplo A (Double Wishbone) com pull rod e amortecedor XTZ-250** na dianteira e **suspensão traseira McPherson derivada do VW Gol, adaptada às necessidades do projeto** na traseira, priorizando disponibilidade de componentes, empacotamento e capacidade de adaptação ao uso off-road.
 
 ---
 
 ## Justificativa
 
-1. **Curso adequado** — suspensão duplo A proporciona curso ≥ 150 mm necessário ao off-road
-2. **Geometria controlada** — camber e toe controlados pela geometria dos braços
-3. **Fabricabilidade local** — braços de suspensão podem ser fabricados por metalúrgica nacional
-4. **Robustez traseira** — eixo rígido traseiro mais adequado à carga de 500 kg
-5. **Custo-benefício** — combinação equilibra performance e custo de produção em série
+1. **Curso adequado** — a suspensão duplo A com pull rod permite curso compatível com o uso off-road e melhor liberdade de posicionamento do amortecedor dianteiro
+2. **Geometria controlada** — camber e toe dianteiros são controlados pela geometria dos braços sobrepostos
+3. **Aproveitamento de componentes nacionais** — o amortecedor XTZ-250 e o conjunto McPherson do VW Gol oferecem base conhecida, de fácil reposição e adaptação
+4. **Empacotamento traseiro simplificado** — a solução McPherson traseira reduz a quantidade de componentes dedicados em relação a alternativas multilink
+5. **Custo-benefício** — combinação equilibra desempenho, disponibilidade de peças e esforço de desenvolvimento
 
 ---
 
@@ -60,16 +60,17 @@ A escolha do conceito de suspensão define diretamente o conforto do operador, o
 ### Positivas
 - Excelente desempenho off-road
 - Curso de suspensão adequado aos requisitos
-- Fabricação nacional viável
+- Boa disponibilidade de componentes nacionais adaptáveis
 
 ### Negativas
-- Maior complexidade que suspensão de eixo rígido
+- Necessidade de adaptação estrutural e geométrica do conjunto McPherson traseiro ao chassi do projeto
 - Necessidade de geometria cuidadosa para evitar desgaste prematuro
-- Mais pontos de articulação que requerem manutenção periódica
+- Integração do pull rod dianteiro aumenta a complexidade de projeto e fabricação
 
 ### Riscos
 - Geometria mal calculada pode gerar comportamento instável
-- Desgaste de buchas em campo (mitigado: buchas standard disponíveis)
+- Seleção inadequada de relações de alavanca no pull rod pode comprometer curso e esforço no amortecedor
+- Adaptação insuficiente do conjunto traseiro pode reduzir durabilidade em uso severo
 
 ---
 
@@ -85,4 +86,5 @@ A escolha do conceito de suspensão define diretamente o conforto do operador, o
 
 | Rev | Data | Autor | Descrição |
 |-----|------|-------|-----------|
+| 1.1 | 2026-07-30 | Copilot | Atualiza definições de suspensão dianteira e traseira |
 | 1.0 | 2026-07-22 | Fundador | Criação inicial |

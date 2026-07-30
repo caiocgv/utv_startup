@@ -8,7 +8,7 @@
 | ADR-0001 | Repositório GitHub como PLM Simplificado | Decisão | accepted | 1.0 | [decisions/ADR-0001-repositorio-plm.md](../../decisions/ADR-0001-repositorio-plm.md) |
 | ADR-0002 | Chassis Tubular como Estrutura Principal | Decisão | proposed | 1.0 | [decisions/ADR-0002-chassis-tubular.md](../../decisions/ADR-0002-chassis-tubular.md) |
 | ADR-0003 | Motor VW AP 1.6/1.8 como Propulsão do UTV | Decisão | accepted | 3.0 | [decisions/ADR-0003-motor-nacional.md](../../decisions/ADR-0003-motor-nacional.md) |
-| ADR-0004 | Sistema de Suspensão Independente para o UTV | Decisão | proposed | 1.0 | [decisions/ADR-0004-suspensao.md](../../decisions/ADR-0004-suspensao.md) |
+| ADR-0004 | Sistema de Suspensão Independente para o UTV | Decisão | proposed | 1.1 | [decisions/ADR-0004-suspensao.md](../../decisions/ADR-0004-suspensao.md) |
 | ADR-0005 | Sistema de Freios a Disco Hidráulico nos 4 Rodas | Decisão | proposed | 1.0 | [decisions/ADR-0005-freios.md](../../decisions/ADR-0005-freios.md) |
 | ADR-0006 | Direção por Cremalheira Mecânica | Decisão | proposed | 1.0 | [decisions/ADR-0006-direcao.md](../../decisions/ADR-0006-direcao.md) |
 | ADR-0007 | Ergonomia com Banco Ajustável e Proteção ROPS Integrada | Decisão | proposed | 1.0 | [decisions/ADR-0007-ergonomia.md](../../decisions/ADR-0007-ergonomia.md) |
