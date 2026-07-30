@@ -2,7 +2,7 @@
 title: Ferramentas de Análise de Suspensão e Software CAD 3D
 id: ADR-0009
 status: accepted
-revision: "1.0"
+revision: "1.1"
 owner: fundador
 created: "2026-07-30"
 updated: "2026-07-30"
@@ -39,6 +39,7 @@ A escolha de ferramentas define a qualidade do projeto, a curva de aprendizado d
 | Ferramenta | Custo | Facilidade de Uso | Profundidade de Análise | Acesso |
 |------------|-------|-------------------|------------------------|--------|
 | **Racing Aspirations MacPherson Calculator** | **Gratuito** | **Alta** | **Adequada para suspensão McPherson** | **Web (online)** |
+| **Racing Aspirations Suspension Geometry Calculator** | **Gratuito** | **Alta** | **Adequada para duplo A (Double Wishbone)** | **Web (online)** |
 | OptimumKinematics | Pago | Média | Muito Alta | Desktop |
 | Lotus Suspension Analysis | Pago | Baixa | Alta | Desktop |
 | Análise manual (planilhas) | Gratuito | Baixa | Limitada | Local |
@@ -56,7 +57,9 @@ A escolha de ferramentas define a qualidade do projeto, a curva de aprendizado d
 
 ## Decisão
 
-1. **Análise de geometria de suspensão**: utilizar a calculadora online **Racing Aspirations MacPherson Geometry Calculator** (https://www.racingaspirations.com/apps/macpherson-geometry-calculator/) como ferramenta principal para análise e validação da geometria de suspensão McPherson.
+1. **Análise de geometria de suspensão**: utilizar as calculadoras online da Racing Aspirations como ferramentas principais para análise e validação da geometria de suspensão:
+   - **MacPherson Geometry Calculator** (https://www.racingaspirations.com/apps/macpherson-geometry-calculator/) — para a suspensão traseira do tipo McPherson
+   - **Suspension Geometry Calculator** (https://www.racingaspirations.com/apps/suspension-geometry-calculator/) — para a suspensão dianteira duplo A (Double Wishbone)
 
 2. **Modelagem CAD 3D**: adotar o **Autodesk Fusion 360** como software principal de modelagem 3D, CAM e simulação para todos os componentes do UTV.
 
@@ -64,13 +67,20 @@ A escolha de ferramentas define a qualidade do projeto, a curva de aprendizado d
 
 ## Justificativa
 
-### Racing Aspirations MacPherson Calculator
+### Racing Aspirations MacPherson Calculator (suspensão traseira)
 
 1. **Gratuito e acessível** — ferramenta web sem necessidade de instalação ou licença
 2. **Específico para McPherson** — projetado para a geometria exata utilizada na suspensão traseira do projeto (ADR-0004)
 3. **Análise rápida** — permite iteração ágil de parâmetros geométricos (camber, caster, kingpin, scrub radius)
 4. **Visualização clara** — fornece representação gráfica da geometria para validação visual
 5. **Integração com o projeto** — compatível com a decisão de usar suspensão McPherson traseira derivada do VW Gol
+
+### Racing Aspirations Suspension Geometry Calculator (suspensão dianteira duplo A)
+
+1. **Gratuito e acessível** — mesma plataforma da calculadora MacPherson, sem custo adicional
+2. **Específico para Double Wishbone** — projetado para análise da geometria de duplo A utilizada na suspensão dianteira com pull rod (ADR-0004)
+3. **Cobre todo o sistema** — junto com a calculadora MacPherson, garante cobertura completa de análise geométrica para dianteiro e traseiro
+4. **Análise de variações de curso** — permite simular camber gain, variação de toe e centro de rolagem ao longo do curso dianteiro
 
 ### Autodesk Fusion 360
 
@@ -86,20 +96,20 @@ A escolha de ferramentas define a qualidade do projeto, a curva de aprendizado d
 ## Consequências
 
 ### Positivas
-- Custo zero de licenciamento para ambas as ferramentas na fase inicial
-- Análise geométrica de suspensão com ferramenta especializada e validada pela comunidade automotiva
+- Custo zero de licenciamento para todas as ferramentas na fase inicial
+- Cobertura completa de análise geométrica de suspensão: MacPherson (traseira) e Double Wishbone (dianteira) através de ferramentas específicas da mesma plataforma
 - Modelo 3D completo do UTV em Fusion 360 como base para fabricação (CAM), documentação e comunicação com fornecedores
 - Redução de retrabalho por validação geométrica antes da fabricação
 - Capacidade de simular e validar componentes estruturalmente críticos
 
 ### Negativas
-- Dependência de conexão à internet para uso da calculadora MacPherson (ferramenta web)
+- Dependência de conexão à internet para uso das calculadoras de suspensão (ferramentas web)
 - Fusion 360 pode ter custos de licença no futuro conforme a empresa cresce além do limite de faturamento
 - Curva de aprendizado do Fusion 360 para usuários sem experiência prévia em CAD
 
 ### Riscos
 - Mudança nos termos de uso do Fusion 360 pode impactar custos futuros (mitigado: exportação para formatos abertos STEP/IGES preserva acesso ao modelo)
-- A calculadora MacPherson cobre apenas suspensão do tipo McPherson; análises da suspensão dianteira duplo A podem requerer ferramenta adicional
+- Indisponibilidade temporária das calculadoras web pode atrasar iterações de projeto (mitigado: resultados devem ser exportados/documentados localmente após cada sessão)
 
 ---
 
@@ -114,6 +124,7 @@ A escolha de ferramentas define a qualidade do projeto, a curva de aprendizado d
 ## Referências
 
 - Racing Aspirations MacPherson Geometry Calculator: https://www.racingaspirations.com/apps/macpherson-geometry-calculator/
+- Racing Aspirations Suspension Geometry Calculator (Double Wishbone): https://www.racingaspirations.com/apps/suspension-geometry-calculator/
 - Autodesk Fusion 360: https://www.autodesk.com/products/fusion-360/
 
 ---
@@ -122,4 +133,5 @@ A escolha de ferramentas define a qualidade do projeto, a curva de aprendizado d
 
 | Rev | Data | Autor | Descrição |
 |-----|------|-------|-----------|
+| 1.1 | 2026-07-30 | Copilot | Adiciona Racing Aspirations Suspension Geometry Calculator para análise da suspensão dianteira duplo A |
 | 1.0 | 2026-07-30 | Copilot | Criação inicial — documenta calculadora MacPherson e Fusion 360 |
