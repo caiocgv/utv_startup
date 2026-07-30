@@ -13,6 +13,7 @@
 | ADR-0006 | Direção por Cremalheira Mecânica | Decisão | proposed | 1.0 | [decisions/ADR-0006-direcao.md](../../decisions/ADR-0006-direcao.md) |
 | ADR-0007 | Ergonomia com Banco Ajustável e Proteção ROPS Integrada | Decisão | proposed | 1.0 | [decisions/ADR-0007-ergonomia.md](../../decisions/ADR-0007-ergonomia.md) |
 | ADR-0008 | Carroceria em Aço com Plataforma Basculante | Decisão | proposed | 1.0 | [decisions/ADR-0008-carroceria.md](../../decisions/ADR-0008-carroceria.md) |
+| ADR-0009 | Ferramentas de Análise de Suspensão e Software CAD 3D | Decisão | accepted | 1.1 | [decisions/ADR-0009-ferramentas-analise-suspensao-cad.md](../../decisions/ADR-0009-ferramentas-analise-suspensao-cad.md) |
 | DOC-0001 | Automação de Documentação de Engenharia | Documento | active | 1.0 | [docs/engineering-automation.md](../engineering-automation.md) |
 | REQ-0001 | Capacidade de Carga Mínima | Requisito | draft | 1.0 | [requirements/REQ-0001.md](../../requirements/REQ-0001.md) |
 | REQ-0002 | Motorização Nacional | Requisito | draft | 1.0 | [requirements/REQ-0002.md](../../requirements/REQ-0002.md) |

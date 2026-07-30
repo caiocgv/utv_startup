@@ -23,6 +23,7 @@
 | ADR-0006 | Direção por Cremalheira Mecânica | — |
 | ADR-0007 | Ergonomia com Banco Ajustável e Proteção ROPS Integrada | — |
 | ADR-0008 | Carroceria em Aço com Plataforma Basculante | — |
+| ADR-0009 | Ferramentas de Análise de Suspensão e Software CAD 3D | — |
 | DOC-0001 | Automação de Documentação de Engenharia | — |
 | REQ-0001 | Capacidade de Carga Mínima | — |
 | REQ-0002 | Motorização Nacional | — |
