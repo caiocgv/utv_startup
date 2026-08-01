@@ -18,7 +18,7 @@
 | REQ-0001 | Capacidade de Carga Mínima | Requisito | draft | 1.0 | [requirements/REQ-0001.md](../../requirements/REQ-0001.md) |
 | REQ-0002 | Motorização Nacional | Requisito | draft | 1.0 | [requirements/REQ-0002.md](../../requirements/REQ-0002.md) |
 | REQ-0003 | Requisitos do Sistema de Powertrain | Requisito | draft | 1.0 | [requirements/REQ-0003.md](../../requirements/REQ-0003.md) |
-| REQ-0004 | Requisitos do Sistema de Suspensão | Requisito | draft | 1.0 | [requirements/REQ-0004.md](../../requirements/REQ-0004.md) |
+| REQ-0004 | Requisitos do Sistema de Suspensão | Requisito | draft | 1.1 | [requirements/REQ-0004.md](../../requirements/REQ-0004.md) |
 | REQ-0005 | Requisitos do Sistema de Freios | Requisito | draft | 1.0 | [requirements/REQ-0005.md](../../requirements/REQ-0005.md) |
 | REQ-0006 | Requisitos do Sistema de Direção | Requisito | draft | 1.0 | [requirements/REQ-0006.md](../../requirements/REQ-0006.md) |
 | REQ-0007 | Requisitos do Sistema de Chassis | Requisito | draft | 1.0 | [requirements/REQ-0007.md](../../requirements/REQ-0007.md) |
