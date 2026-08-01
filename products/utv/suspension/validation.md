@@ -2,10 +2,10 @@
 title: Validação — Suspensão
 id: UTV-SUSP-VAL
 status: draft
-revision: "1.0"
+revision: "1.1"
 owner: fundador
 created: "2026-07-21"
-updated: "2026-07-21"
+updated: "2026-08-01"
 related:
   - /validation/README.md
   - UTV-SUSP-tests.md
@@ -19,7 +19,8 @@ tags: [utv, suspension, validation]
 
 | Requisito | Teste | Simulação | Status | Observação |
 |-----------|-------|-----------|--------|------------|
-| REQ-F001 | TEST-0001 | SIM-0001 | 🔴 Pendente | — |
+| REQ-F001 | TEST-0001 | SIM-0001 | 🔴 Pendente | Validar braços, cubos, pivôs e fixações para pulso equivalente de até 20 g |
+| REQ-NF001 | TEST-0002 | SIM-0002 | 🔴 Pendente | Confirmar frequência natural primária em 1,5 ± 0,2 Hz |
 
 ## Status de Validação
 
