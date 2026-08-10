@@ -5,7 +5,7 @@ status: proposed
 revision: "1.0"
 owner: fundador
 created: "2026-07-22"
-updated: "2026-07-22"
+updated: "2026-08-10"
 related:
   - /decisions/README.md
   - /requirements/REQ-0005.md
@@ -41,7 +41,7 @@ O sistema de freios é um componente crítico de segurança ativa. Para um UTV c
 
 ## Decisão Proposta
 
-**Freios a disco hidráulico nos 4 rodas**, com cilindro mestre duplo, circuito diagonal independente e freio de estacionamento mecânico nas rodas traseiras.
+**Freios a disco hidráulico nos 4 rodas**, com cilindro mestre duplo, circuito diagonal independente e freio de estacionamento hidráulico nas rodas traseiras.
 
 ---
 
@@ -86,3 +86,4 @@ O sistema de freios é um componente crítico de segurança ativa. Para um UTV c
 | Rev | Data | Autor | Descrição |
 |-----|------|-------|-----------|
 | 1.0 | 2026-07-22 | Fundador | Criação inicial |
+| 1.1 | 2026-08-10 | Fundador | Freio de estacionamento alterado de mecânico para hidráulico, alinhado ao REQ-0005 rev 2.0 |
