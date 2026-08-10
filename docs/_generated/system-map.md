@@ -4,8 +4,8 @@ id: GEN-SYSTEM-MAP
 status: generated
 revision: "auto"
 owner: automation
-created: "2026-07-30"
-updated: "2026-07-30"
+created: "2026-08-10"
+updated: "2026-08-10"
 tags: [generated, diagram, mermaid]
 ---
 
