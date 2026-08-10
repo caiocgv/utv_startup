@@ -44,15 +44,15 @@ flowchart TD
 
 | ID | Título | Status |
 |----|--------|--------|
-| REQ-0001 | Capacidade de Carga Mínima | draft |
-| REQ-0002 | Motorização Nacional | draft |
-| REQ-0003 | Requisitos do Sistema de Powertrain | draft |
-| REQ-0004 | Requisitos do Sistema de Suspensão | draft |
-| REQ-0005 | Requisitos do Sistema de Freios | draft |
-| REQ-0006 | Requisitos do Sistema de Direção | draft |
-| REQ-0007 | Requisitos do Sistema de Chassis | draft |
-| REQ-0008 | Requisitos de Ergonomia | draft |
-| REQ-0009 | Requisitos da Carroceria | draft |
+| REQ-0001 | Capacidade de Carga Mínima | approved |
+| REQ-0002 | Motorização Nacional | approved |
+| REQ-0003 | Requisitos do Sistema de Powertrain | approved |
+| REQ-0004 | Requisitos do Sistema de Suspensão | approved |
+| REQ-0005 | Requisitos do Sistema de Freios | approved |
+| REQ-0006 | Requisitos do Sistema de Direção | approved |
+| REQ-0007 | Requisitos do Sistema de Chassis | approved |
+| REQ-0008 | Requisitos de Ergonomia | approved |
+| REQ-0009 | Requisitos da Carroceria | approved |
 | REQ-README | Sistema de Requisitos | active |
 
 ## 🖥️ Simulações
