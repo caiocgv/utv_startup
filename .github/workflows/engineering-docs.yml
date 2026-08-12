@@ -58,6 +58,7 @@ jobs:
             echo "✅ No changes to generated files — skipping commit."
           else
             git commit -m "chore(docs): regenerate engineering documentation [skip ci]"
+            git pull --rebase
             git push
             echo "✅ Generated files committed and pushed."
           fi
