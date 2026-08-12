@@ -1,0 +1,17 @@
+Body / joint parameter,"Recommended high-comfort range, sedan",Practical design target,Notes
+Neck angle,?1° to 27°,~10–15°,Keep head relatively upright; avoid sustained neck flexion
+"Shoulder, left",1°–29°,~15–25°,Low shoulder elevation/reach
+"Shoulder, right",3°–26°,~15–25°,Appropriate for steering/control reach
+"Elbow, left",85°–120°,~100–115°,Comfortable steering-arm flexion
+"Elbow, right",85°–108°,~95–105°,Slightly more flexed than left in this dataset
+"Wrist, left",129°–170°,~150–170°,Depends strongly on steering-wheel grip definition
+"Wrist, right",128°–154°,~140–150°,Keep wrist reasonably neutral relative to forearm
+Torso / trunk inclination,18°–26°,~20–25°,Good baseline for conventional passenger cars
+"Hip, left",79°–87°,~83–87°,One MCMD posture group
+"Hip, right",83°–92°,~85–90°,Comfortable driver hip configuration
+"Knee, left",84°–91°,~85–90°,One preferred posture group
+"Knee, right",93°–110°,~100–110°,Useful reference for pedal-side leg
+"Ankle / foot, left",82°–88°,~85°,Angle definition must be kept consistent
+"Ankle / foot, right",77°–91°,~85–90°,Relevant to accelerator/brake arrangement
+"Shoe-plane angle, left",75°–80°,~77–80°,Vehicle packaging measure
+"Shoe-plane angle, right",68°–88°,~80–88°,Accelerator-side packaging measure
