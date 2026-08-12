@@ -15,12 +15,12 @@
 | ADR-0008 | Carroceria em Aço com Plataforma Basculante | Decisão | proposed | 1.0 | [decisions/ADR-0008-carroceria.md](../../decisions/ADR-0008-carroceria.md) |
 | ADR-0009 | Ferramentas de Análise de Suspensão e Software CAD 3D | Decisão | accepted | 1.1 | [decisions/ADR-0009-ferramentas-analise-suspensao-cad.md](../../decisions/ADR-0009-ferramentas-analise-suspensao-cad.md) |
 | DOC-0001 | Automação de Documentação de Engenharia | Documento | active | 1.0 | [docs/engineering-automation.md](../engineering-automation.md) |
-| REQ-0001 | Capacidade de Carga Mínima | Requisito | draft | 1.0 | [requirements/REQ-0001.md](../../requirements/REQ-0001.md) |
-| REQ-0002 | Motorização Nacional | Requisito | draft | 1.0 | [requirements/REQ-0002.md](../../requirements/REQ-0002.md) |
-| REQ-0003 | Requisitos do Sistema de Powertrain | Requisito | draft | 1.0 | [requirements/REQ-0003.md](../../requirements/REQ-0003.md) |
-| REQ-0004 | Requisitos do Sistema de Suspensão | Requisito | draft | 1.1 | [requirements/REQ-0004.md](../../requirements/REQ-0004.md) |
-| REQ-0005 | Requisitos do Sistema de Freios | Requisito | draft | 2.0 | [requirements/REQ-0005.md](../../requirements/REQ-0005.md) |
-| REQ-0006 | Requisitos do Sistema de Direção | Requisito | draft | 1.0 | [requirements/REQ-0006.md](../../requirements/REQ-0006.md) |
-| REQ-0007 | Requisitos do Sistema de Chassis | Requisito | draft | 1.1 | [requirements/REQ-0007.md](../../requirements/REQ-0007.md) |
-| REQ-0008 | Requisitos de Ergonomia | Requisito | draft | 1.0 | [requirements/REQ-0008.md](../../requirements/REQ-0008.md) |
-| REQ-0009 | Requisitos da Carroceria | Requisito | draft | 1.0 | [requirements/REQ-0009.md](../../requirements/REQ-0009.md) |
+| REQ-0001 | Capacidade de Carga Mínima | Requisito | approved | 1.0 | [requirements/REQ-0001.md](../../requirements/REQ-0001.md) |
+| REQ-0002 | Motorização Nacional | Requisito | approved | 1.0 | [requirements/REQ-0002.md](../../requirements/REQ-0002.md) |
+| REQ-0003 | Requisitos do Sistema de Powertrain | Requisito | approved | 1.0 | [requirements/REQ-0003.md](../../requirements/REQ-0003.md) |
+| REQ-0004 | Requisitos do Sistema de Suspensão | Requisito | approved | 1.1 | [requirements/REQ-0004.md](../../requirements/REQ-0004.md) |
+| REQ-0005 | Requisitos do Sistema de Freios | Requisito | approved | 2.0 | [requirements/REQ-0005.md](../../requirements/REQ-0005.md) |
+| REQ-0006 | Requisitos do Sistema de Direção | Requisito | approved | 1.0 | [requirements/REQ-0006.md](../../requirements/REQ-0006.md) |
+| REQ-0007 | Requisitos do Sistema de Chassis | Requisito | approved | 1.1 | [requirements/REQ-0007.md](../../requirements/REQ-0007.md) |
+| REQ-0008 | Requisitos de Ergonomia | Requisito | approved | 1.0 | [requirements/REQ-0008.md](../../requirements/REQ-0008.md) |
+| REQ-0009 | Requisitos da Carroceria | Requisito | approved | 1.0 | [requirements/REQ-0009.md](../../requirements/REQ-0009.md) |
