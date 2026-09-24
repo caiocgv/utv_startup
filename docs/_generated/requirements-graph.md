@@ -4,8 +4,8 @@ id: GEN-REQ-GRAPH
 status: generated
 revision: "auto"
 owner: automation
-created: "2026-08-12"
-updated: "2026-08-12"
+created: "2026-09-24"
+updated: "2026-09-24"
 tags: [generated, diagram, mermaid]
 ---
 
