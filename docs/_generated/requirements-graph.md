@@ -4,8 +4,8 @@ id: GEN-REQ-GRAPH
 status: generated
 revision: "auto"
 owner: automation
-created: "2026-09-24"
-updated: "2026-09-24"
+created: "2026-09-29"
+updated: "2026-09-29"
 tags: [generated, diagram, mermaid]
 ---
 
@@ -73,6 +73,7 @@ flowchart LR
         UTV_CHASSIS_SIM["UTV-CHASSIS-SIM<br/>Simulações — Chassis"]
         UTV_CHASSIS_TEST["UTV-CHASSIS-TEST<br/>Testes — Chassis"]
         UTV_CHASSIS_VAL["UTV-CHASSIS-VAL<br/>Validação — Chassis"]
+        UTV_COST_001["UTV-COST-001<br/>Divisão do Orçamento por Subsistema"]
         UTV_ELEC_ARCH["UTV-ELEC-ARCH<br/>Arquitetura — Elétrica"]
         UTV_ELEC_BOM["UTV-ELEC-BOM<br/>BOM — Elétrica"]
         UTV_ELEC_COMP["UTV-ELEC-COMP<br/>Componentes — Elétrica"]

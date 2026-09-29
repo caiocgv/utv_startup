@@ -4,8 +4,8 @@ id: GEN-ADR-GRAPH
 status: generated
 revision: "auto"
 owner: automation
-created: "2026-09-24"
-updated: "2026-09-24"
+created: "2026-09-29"
+updated: "2026-09-29"
 tags: [generated, diagram, mermaid]
 ---
 
