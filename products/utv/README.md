@@ -59,6 +59,10 @@ graph TD
 | Plataforma de Carga | Plataforma modular traseira | 🟡 Em definição | [cargo_platform/](./cargo_platform/README.md) |
 | Ergonomia | Posto de operação e conforto | 🟡 Em definição | [ergonomics/](./ergonomics/README.md) |
 
+## Orçamento
+
+- [Divisão do orçamento por subsistema](./orcamento.md)
+
 ---
 
 ## Especificações Preliminares
